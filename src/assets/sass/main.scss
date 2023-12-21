@@ -1,3 +1,39 @@
-* {
-    background-color: green;
+@import './config';
+
+body {
+    background-color: $light-gray;
+    font-family: 'Karla', sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+    height: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.4vw;
+    box-shadow: 0.2vw 0.2vw 1.5vw -0.3vw $black;
+    overflow: hidden;
+
+    .box {
+        &-1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        &-2, &-3 {
+            color: $white;
+        }
+
+        &-2 {
+            background-color: $grayish-blue;
+        }
+
+        &-3 {
+            background-color: $cyan;
+        }
+    }
 }
