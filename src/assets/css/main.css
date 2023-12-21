@@ -5,6 +5,61 @@
   box-sizing: border-box;
 }
 
+@media (min-width: 2500px) {
+  h1 {
+    font-size: 3.9rem;
+  }
+  h2, .box-1 span {
+    font-size: 2.8rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 2500px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+  h2, .box-1 span {
+    font-size: 2.1rem;
+  }
+  p {
+    font-size: 1.9rem;
+  }
+}
+@media (max-width: 2000px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+  h2, .box-1 span {
+    font-size: 1.7rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1500px) {
+  h1 {
+    font-size: 1.65rem;
+  }
+  h2, .box-1 span {
+    font-size: 1.25rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 1.15rem;
+  }
+  h2, .box-1 span {
+    font-size: 0.85rem;
+  }
+  p {
+    font-size: 0.75rem;
+  }
+}
 body {
   background-color: hsl(204, 43%, 93%);
   font-family: "Karla", sans-serif;
@@ -20,19 +75,34 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 0.4vw;
-  box-shadow: 0.2vw 0.2vw 1.5vw -0.3vw hsla(0, 0%, 0%, 0.5);
+  box-shadow: 0.2vw 0.2vw 1.5vw -0.3vw hsl(218, 22%, 67%);
   overflow: hidden;
+}
+.wrapper div[class^=box] {
+  padding: 6.5vh 2.5vw;
 }
 .wrapper .box-1 {
   grid-column-start: 1;
   grid-column-end: 3;
+  color: hsl(218, 22%, 67%);
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrapper .box-1 h1 {
+  margin-bottom: 2.5vh;
+}
+.wrapper .box-1 span {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
 }
 .wrapper .box-2, .wrapper .box-3 {
   color: hsl(0, 0%, 100%);
 }
 .wrapper .box-2 {
-  background-color: hsl(218, 22%, 67%);
+  background-color: hsl(179, 62%, 43%);
 }
 .wrapper .box-3 {
-  background-color: hsl(179, 62%, 43%);
+  background-color: hsl(179, 62%, 47%);
 }/*# sourceMappingURL=main.css.map */
