@@ -1,7 +1,7 @@
 @import './mixins';
 
 @media (min-width: 2500px) {
-    @include font_sizes(3.9rem, 2.8rem, 2.5rem);
+    @include font_sizes(3.7rem, 2.8rem, 2.5rem);
 }
 
 @media (max-width: 2500px) {

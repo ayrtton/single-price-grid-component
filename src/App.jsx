@@ -12,7 +12,7 @@ function App() {
                 </div>
                 <div className='box-2'>
                     <h2>Monthly Subscription</h2>
-                    $29 per month
+                    <p id='price'><span>$29</span> per month</p>
                     <p>Full access for less than $1 a day</p>
                     <button>Sign Up</button>
                 </div>

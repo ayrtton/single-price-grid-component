@@ -10,4 +10,14 @@
     p {
         font-size: $size_03;
     }
+
+    .box-2 span {
+        font-size: $size_03 * 2;
+    }
+}
+
+@mixin flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
