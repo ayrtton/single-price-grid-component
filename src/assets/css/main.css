@@ -7,16 +7,19 @@
 
 @media (min-width: 2500px) {
   h1 {
-    font-size: 3.7rem;
+    font-size: 3.5rem;
   }
   h2, .box-1 span {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
   }
-  p {
-    font-size: 2.5rem;
+  p, button {
+    font-size: 2.3rem;
   }
   .box-2 span {
-    font-size: 5rem;
+    font-size: 4.6rem;
+  }
+  .box-3 p {
+    font-size: 1.955rem;
   }
 }
 @media (max-width: 2500px) {
@@ -26,11 +29,14 @@
   h2, .box-1 span {
     font-size: 2.1rem;
   }
-  p {
+  p, button {
     font-size: 1.9rem;
   }
   .box-2 span {
     font-size: 3.8rem;
+  }
+  .box-3 p {
+    font-size: 1.615rem;
   }
 }
 @media (max-width: 2000px) {
@@ -40,11 +46,14 @@
   h2, .box-1 span {
     font-size: 1.7rem;
   }
-  p {
-    font-size: 1.5rem;
+  p, button {
+    font-size: 1.4rem;
   }
   .box-2 span {
-    font-size: 3rem;
+    font-size: 2.8rem;
+  }
+  .box-3 p {
+    font-size: 1.19rem;
   }
 }
 @media (max-width: 1500px) {
@@ -54,11 +63,14 @@
   h2, .box-1 span {
     font-size: 1.25rem;
   }
-  p {
-    font-size: 1.1rem;
+  p, button {
+    font-size: 0.95rem;
   }
   .box-2 span {
-    font-size: 2.2rem;
+    font-size: 1.9rem;
+  }
+  .box-3 p {
+    font-size: 0.8075rem;
   }
 }
 @media (max-width: 1000px) {
@@ -68,11 +80,14 @@
   h2, .box-1 span {
     font-size: 0.85rem;
   }
-  p {
+  p, button {
     font-size: 0.75rem;
   }
   .box-2 span {
     font-size: 1.5rem;
+  }
+  .box-3 p {
+    font-size: 0.6375rem;
   }
 }
 body {
@@ -83,8 +98,9 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 50%;
-  height: 65%;
+  grid-auto-rows: 50%;
+  width: 55%;
+  height: 70%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -136,7 +152,6 @@ body {
   border-radius: 0.6vw;
   background-color: hsl(71, 73%, 54%);
   color: hsl(0, 0%, 100%);
-  font-size: inherit;
   font-family: inherit;
   font-weight: 700;
   box-shadow: 0.1vw 0.3vw 0.7vw -0.1vw hsla(0, 0%, 0%, 0.3);
@@ -146,5 +161,8 @@ body {
   cursor: pointer;
 }
 .wrapper .box-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: hsl(179, 62%, 47%);
 }/*# sourceMappingURL=main.css.map */

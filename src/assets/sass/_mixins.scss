@@ -7,12 +7,16 @@
         font-size: $size_02;
     }
 
-    p {
+    p, button {
         font-size: $size_03;
     }
 
     .box-2 span {
         font-size: $size_03 * 2;
+    }
+
+    .box-3 p {
+        font-size: $size_03 * 0.85;
     }
 }
 
