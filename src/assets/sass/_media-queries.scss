@@ -19,3 +19,13 @@
 @media (max-width: 1000px) {
     @include font_sizes(1.15rem, .85rem, .75rem);
 }
+
+@media (max-width: 800px) {
+    body {
+        .wrapper {
+            @include flexbox;
+            height: auto;
+            width: 90%;
+        }
+    }
+}

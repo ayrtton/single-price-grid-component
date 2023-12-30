@@ -90,6 +90,15 @@
     font-size: 0.6375rem;
   }
 }
+@media (max-width: 800px) {
+  body .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: 90%;
+  }
+}
 body {
   background-color: hsl(204, 43%, 93%);
   font-family: "Karla", sans-serif;
