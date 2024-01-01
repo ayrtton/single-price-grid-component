@@ -20,12 +20,12 @@ body {
     overflow: hidden;
 
     div[class^='box'] {
+        @include flexbox;
         padding: 5.5vh 2.5vw;
     }
 
     .box {
         &-1 {
-            @include flexbox;
             grid-column-start: 1;
             grid-column-end: 3;
             color: $grayish-blue;
@@ -44,7 +44,6 @@ body {
         }
 
         &-2 {
-            @include flexbox;
             background-color: $cyan;
 
             #price {
@@ -77,7 +76,6 @@ body {
         }
 
         &-3 {
-            @include flexbox;
             background-color: $light-cyan;
         }
     }

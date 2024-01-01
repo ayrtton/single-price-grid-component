@@ -98,6 +98,10 @@
     height: auto;
     width: 90%;
   }
+  body .wrapper div[class^=box] {
+    padding: 3.5vh 6.5vw;
+    height: 25vh;
+  }
 }
 body {
   background-color: hsl(204, 43%, 93%);
@@ -119,12 +123,12 @@ body {
   overflow: hidden;
 }
 .wrapper div[class^=box] {
-  padding: 5.5vh 2.5vw;
-}
-.wrapper .box-1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 5.5vh 2.5vw;
+}
+.wrapper .box-1 {
   grid-column-start: 1;
   grid-column-end: 3;
   color: hsl(218, 22%, 67%);
@@ -140,9 +144,6 @@ body {
   color: hsl(0, 0%, 100%);
 }
 .wrapper .box-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   background-color: hsl(179, 62%, 43%);
 }
 .wrapper .box-2 #price {
@@ -170,8 +171,5 @@ body {
   cursor: pointer;
 }
 .wrapper .box-3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   background-color: hsl(179, 62%, 47%);
 }/*# sourceMappingURL=main.css.map */

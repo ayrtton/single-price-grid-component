@@ -26,6 +26,11 @@
             @include flexbox;
             height: auto;
             width: 90%;
+
+            div[class^='box'] {
+                padding: 3.5vh 6.5vw;
+                height: 25vh;
+            }
         }
     }
 }
