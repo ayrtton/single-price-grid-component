@@ -24,10 +24,6 @@ body {
         padding: 5.5vh 2.5vw;
     }
 
-    p {
-        line-height: 4vh;
-    }
-
     .box {
         &-1 {
             grid-column-start: 1;
@@ -36,7 +32,9 @@ body {
             background-color: $white;
             gap: 1vh;
 
-            
+            p {
+                line-height: 4vh;
+            }       
 
             span {
                 color: $bright-yellow;

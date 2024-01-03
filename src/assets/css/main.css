@@ -101,12 +101,12 @@
   body .wrapper br {
     display: none;
   }
-  body .wrapper p {
-    line-height: 3vh;
-  }
   body .wrapper div[class^=box] {
     padding: 3.5vh 6.5vw;
     height: 25vh;
+  }
+  body .wrapper .box-1 p {
+    line-height: 3vh;
   }
 }
 body {
@@ -134,15 +134,15 @@ body {
   justify-content: space-between;
   padding: 5.5vh 2.5vw;
 }
-.wrapper p {
-  line-height: 4vh;
-}
 .wrapper .box-1 {
   grid-column-start: 1;
   grid-column-end: 3;
   color: hsl(218, 22%, 67%);
   background-color: hsl(0, 0%, 100%);
   gap: 1vh;
+}
+.wrapper .box-1 p {
+  line-height: 4vh;
 }
 .wrapper .box-1 span {
   color: hsl(71, 73%, 54%);
