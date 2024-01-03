@@ -27,6 +27,14 @@
             height: auto;
             width: 90%;
 
+            br {
+                display: none;
+            }
+
+            p {
+                line-height: 3vh;
+            }
+
             div[class^='box'] {
                 padding: 3.5vh 6.5vw;
                 height: 25vh;

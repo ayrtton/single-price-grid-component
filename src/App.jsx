@@ -7,8 +7,8 @@ function App() {
                 <div className='box-1'>
                     <h1>Join our community</h1>
                     <span>30-day, hassle-free money back guarantee</span>
-                    <p>Gain access to our full library of tutorials along with expert code reviews.</p>
-                    <p>Perfect for any developers who are serious about honing their skills.</p>
+                    <p>Gain access to our full library of tutorials along with expert code reviews.&nbsp;<br/>
+                    Perfect for any developers who are serious about honing their skills.</p>
                 </div>
                 <div className='box-2'>
                     <h2>Monthly Subscription</h2>
