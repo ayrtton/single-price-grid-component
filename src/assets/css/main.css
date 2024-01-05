@@ -97,6 +97,7 @@
     justify-content: space-between;
     height: auto;
     width: 90%;
+    border-radius: 2vw;
   }
   body .wrapper br {
     display: none;
@@ -107,6 +108,9 @@
   }
   body .wrapper .box-1 p {
     line-height: 3vh;
+  }
+  body .wrapper .box-2 button {
+    border-radius: 2vw;
   }
 }
 body {
@@ -187,6 +191,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  justify-content: center;
   text-align: center;
   position: absolute;
   bottom: 0;

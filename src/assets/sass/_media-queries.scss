@@ -26,6 +26,7 @@
             @include flexbox;
             height: auto;
             width: 90%;
+            border-radius: 2vw;
 
             br {
                 display: none;
@@ -39,6 +40,12 @@
             .box-1 {
                 p {
                     line-height: 3vh;
+                }
+            }
+
+            .box-2 {
+                button {
+                    border-radius: 2vw;
                 }
             }
         }
